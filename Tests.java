@@ -19,7 +19,7 @@ public class Tests {
         tree.agregar(word);
 
 
-        assertEquals(tree.iord(), resultado);
+        assertEquals(tree.inOrder(), resultado);
     }
     
     //Probamos que aunque insertemos la palabra después por la manera de ordenar el tree como empieza con "a" será la primera
@@ -34,7 +34,7 @@ public class Tests {
         tree.agregar(Word2);
 
 
-        assertEquals(tree.iord(), resultado);
+        assertEquals(tree.inOrder(), resultado);
     }
 
     
