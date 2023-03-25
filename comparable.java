@@ -27,7 +27,7 @@ public class comparable<llave extends Comparable<llave>,valor> extends Asosiacio
         b=getValue();
 
         
-        s.append(a+"es igual a "+b);
+        s.append(a+" es igual a "+b);
         return s.toString();
     }
 
